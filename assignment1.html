@@ -12,6 +12,7 @@
 	{
 		display:flex;
 		flex-wrap: wrap;
+		flex-direction:row;
 		justify-content: center;
 	}	
 	img
@@ -19,7 +20,7 @@
 		width: 300px;
 		
 		height :200px;
-		margin: 2px;
+		margin: 20px;
 		transition: all 1s;
 		box-shadow: 4px 4px 4px #883885
 	}
@@ -35,15 +36,30 @@
         color:blue;
         text-size:25px;
          }
+	ul{
+	margin:0;
+        padding:0;
+	list-style-type:none;	
+	}
+	li{
+	display:inline-block;
+	margin:20px;
+	}
 	</style>
 	
 </head>
 <body>
-	<div id="div1">
-		<h2>Rishita Singh</h2>
-	</div>
+	<header>
+		<nav>
+			<ul>
+				<li>Rishita Singh</li>
+				<li>1906022</li>
+			</ul>
+		</nav>
+		<h1 style="text-align: center;" class="c1"><u>Sceneries</u></h1>
+	</header>	
 	
-<h1 style="text-align: center;" class="c1"><u>Sceneries</u></h1>
+
 
 <div class ="container">
 	<img src="img1.jpg"/>
